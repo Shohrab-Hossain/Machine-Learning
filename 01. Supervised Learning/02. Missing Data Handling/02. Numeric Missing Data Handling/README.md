@@ -1,6 +1,8 @@
 <br>
 
-# Numeric Missing Data Handling
+<h1 align='center'>
+ Numeric Missing Data Handling
+</h1>
 
 
 
