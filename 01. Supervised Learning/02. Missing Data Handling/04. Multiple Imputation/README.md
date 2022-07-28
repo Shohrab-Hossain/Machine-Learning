@@ -1,6 +1,8 @@
 <br>
 
-# Multiple Imputation
+<h1 align='center'>
+  Multiple Imputation
+</h1>
 
 
 
