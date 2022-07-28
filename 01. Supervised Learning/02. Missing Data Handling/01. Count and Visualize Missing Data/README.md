@@ -1,10 +1,10 @@
 <br>
 
-<p style='text-align:center'>
+<h1 align='center'>
 
-# Count and Visualize Missing Data
+  Count and Visualize Missing Data
 
-</p>
+</h1>
 
 
 
