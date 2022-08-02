@@ -12,7 +12,7 @@ This is the fundamental step in addressing missing data. The entire picture of m
 
 <br>
 
-#### a. Using Custom Package
+## a. Using Custom Package
 
 In this case, missing data are counted and visualized using a custom package named `mltoolsh`. Basic Python libraries like NumPy, Pandas, Matplotlib, Seaborn, etc. were used in the development of this package.
 
@@ -33,7 +33,7 @@ Utilizing this software has the benefit of providing a stunning bar plot represe
 
 
 
-#### b. Using Python Library
+## b. Using Python Library
 
 A python library named `Missingno` is used in this case to visualize the missing data. The library can plot bar plot and matrix plot, which gives a proper view about missing data.
 
@@ -51,7 +51,7 @@ This library offers a fluid representation in both a bar plot and a matrix plot,
 <br>
 
 
-#### c. Using Seaborn
+## c. Using Seaborn
 
 There are numerous built-in methods to view missing data in Seaborn. Using Seaborn, missing data can be immediately represented as a bar plot.
 
