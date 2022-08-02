@@ -6,6 +6,7 @@
 
 </h1>
 
+<br>
 
 This is the fundamental step in addressing missing data. The entire picture of missing data is provided by counting and visualizing, which also aids in choosing the best handling method. One of three methods can be used to count and visualize data -
 
