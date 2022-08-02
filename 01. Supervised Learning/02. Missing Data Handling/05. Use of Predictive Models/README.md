@@ -1,7 +1,8 @@
 <br>
 
-# Use of Predictive Models
-
+<h1 align='center'>
+  Use of Predictive Models
+</h1>
 
 
 
