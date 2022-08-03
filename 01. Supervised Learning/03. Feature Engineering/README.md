@@ -143,11 +143,37 @@ This function converts a date and time string to date-time format. Then this dat
 <br> <br> <br>
 
 
-### 3. Textual Dat Handling
+### 3. Textual Data Handling
 
 In a data frame, textual data are common. This form of data can be an address, a zip code, or anything else. Contemporary Natural Language Processing techniques are capable of handling textual data.
 
 
 <br> <br> <br>
 
+
+---
+
+<br>
+
+## Table of content
+
+<br>
+
+[**Feature Engineering**](#feature-engineering)
+
+- [Feature Engineering](#feature-engineering)
+- [Processes in Feature Engineering](#processes-in-feature-engineering)
+  - [Feature Creation](#feature-creation)
+  - [Transformations](#transformations)
+  - [Feature Extraction](#feature-extraction)
+  - [Exploratory Data Analysis](#exploratory-data-analysis)
+  - [Benchmark](#benchmark)
+- [Techniques for Feature Engineering](#techniques-for-Feature-engineering)
+  1. [Categorical Data Encoding](#1-categorical-data-encoding)
+      - [Using Pandas 'get_dummies()' function](#a-using-pandas-get_dummies-function)
+      - [Using Pandas 'replace()' function](#b-using-pandas-replace-function)
+      - [Apply Custom Function](#c-apply-custom-function)
+  3. [Date and Time Data Handling](#2-date-and-time-data-handling)
+     - [Using Pandas 'to_datetime()' function](#a-using-pandas-to_datetime-function)
+  5. [Textual Data Handling](#3-textual-data-handling)
 
