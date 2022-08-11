@@ -1,9 +1,10 @@
-# Model Design, Train, and Evaluation
+<h1 align='center'>
+  Model Design, Train, and Evaluation
+</h1>
 
-
-
-<img src="..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\model-design-logo.png" alt="Logo" width="80%"/>
-
+<p align=center>
+  <img src="..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\model-design-logo.png" alt="Logo" width="80%"/>
+</p>
 
 
 
@@ -52,9 +53,9 @@
 Under the umbrella of supervised learning fall: Classification, and Regression.
 
 
-
-<img src="..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Supervised Learning Models.png" alt="Model Design, Train, and Evaluation" width="60%"/>
-
+<p align=center>
+  <img src="..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Supervised Learning Models.png" alt="Model Design, Train, and Evaluation" width="60%"/>
+</p>
 
 
 
@@ -74,9 +75,9 @@ The blue circles represent the **input layer, **the black circles represent the 
 
 
 
-
-<img src="..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Neural Network Diagram.png" alt="Model Design, Train, and Evaluation" width="65%"/>
-
+<p align=center>
+  <img src="..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Neural Network Diagram.png" alt="Model Design, Train, and Evaluation" width="65%"/>
+</p>
 
 
 
@@ -96,9 +97,9 @@ Let’s assume that there are two classes of data. A support vector machine will
 
 
 
-
-<img src="..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Support Vector Machine Diagram.png" alt="Model Design, Train, and Evaluation" width="30%"/>
-
+<p align=center>
+  <img src="..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Support Vector Machine Diagram.png" alt="Model Design, Train, and Evaluation" width="30%"/>
+</p>
 
 
 
@@ -114,9 +115,9 @@ Let’s assume that there are two classes of data. A support vector machine will
 
 
 
-
-<img src="..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Decision Tree Diagram.png" alt="Model Design, Train, and Evaluation" width="75%"/>
-
+<p align=center>
+  <img src="..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Decision Tree Diagram.png" alt="Model Design, Train, and Evaluation" width="75%"/>
+</p>
 
 
 
@@ -134,9 +135,9 @@ For example, if we created one decision tree, the third one, it would predict 0.
 
 
 
-
-<img src="..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Random Forest Diagram.png" alt="Model Design, Train, and Evaluation" width="80%"/>
-
+<p align=center>
+  <img src="..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Random Forest Diagram.png" alt="Model Design, Train, and Evaluation" width="80%"/>
+</p>
 
 
 
@@ -152,9 +153,9 @@ The K-Nearest-Neighbour algorithm estimates how likely a data point is to be a m
 
 
 
-
-<img src="..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\K Nearest Neighbor Diagram.png" alt="Model Design, Train, and Evaluation" width="50%"/>
-
+<p align=center>
+  <img src="..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\K Nearest Neighbor Diagram.png" alt="Model Design, Train, and Evaluation" width="50%"/>
+</p>
 
 
 
@@ -172,9 +173,9 @@ Extensions of linear regression include multiple linear regression (eg. finding 
 
 
 
-
-<img src="..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Linear Regression Diagram.png" alt="Model Design, Train, and Evaluation" width="65%"/>
-
+<p align=center>
+  <img src="..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Linear Regression Diagram.png" alt="Model Design, Train, and Evaluation" width="65%"/>
+</p>
 
 
 
@@ -194,9 +195,9 @@ Logistic regression is similar to linear regression but is used to model the pro
 
 
 
-
-<img src="..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Logistic Regression Diagram.png" alt="Model Design, Train, and Evaluation" width="65%"/>
-
+<p align=center>
+  <img src="..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Logistic Regression Diagram.png" alt="Model Design, Train, and Evaluation" width="65%"/>
+</p>
 
 
 
@@ -233,8 +234,9 @@ A typical validation curve is a plot of the model's error as a function of some 
 
 
 
-<img src="..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Validation curve.png" alt="Model Design, Train, and Evaluation" width='85%'/>
-
+<p align=center>
+  <img src="..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Validation curve.png" alt="Model Design, Train, and Evaluation" width='85%'/>
+</p>
 
 
 
@@ -258,16 +260,18 @@ These four outcomes are often plotted on a confusion matrix.
 
 
 
-<img src="..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\confusion matrix logo.png" alt="Model Design, Train, and Evaluation" width='70%'/>
-
+<p align=center>
+  <img src="..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\confusion matrix logo.png" alt="Model Design, Train, and Evaluation" width='70%'/>
+<>/p
 
 
 A confusion matrix is an N X N matrix, where N is the number of classes being predicted. Confusion matrices can be applied to binary classification and could be expanded to illustrate multi-class classification predictions. 
 
 
 
-<img src="..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Confusion Matrix Details.jpeg" alt="Model Design, Train, and Evaluation" width='80%'/>
-
+<p align=center>
+  <img src="..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Confusion Matrix Details.jpeg" alt="Model Design, Train, and Evaluation" width='80%'/>
+</p>
 
 
 
@@ -283,9 +287,9 @@ The three main metrics used to evaluate a classification model are accuracy, pre
 Accuracy is defined as the percentage of correct predictions for the test data. It can be calculated easily by dividing the number of correct predictions by the number of total predictions.
 
 
-
-<img src="..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Accuracy.png" alt="Model Design, Train, and Evaluation" width='70%'/>
-
+<p align=center>
+  <img src="..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Accuracy.png" alt="Model Design, Train, and Evaluation" width='70%'/>
+</p>
 
 
 
@@ -295,9 +299,9 @@ Accuracy is defined as the percentage of correct predictions for the test data. 
 Precision is defined as the fraction of relevant examples (true positives) among all of the examples which were predicted to belong in a certain class.
 
 
-
-<img src="..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Precision.png" alt="Model Design, Train, and Evaluation" width='40%'/>
-
+<p align=center>
+  <img src="..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Precision.png" alt="Model Design, Train, and Evaluation" width='40%'/>
+</p>
 
 
 
@@ -317,9 +321,9 @@ Recall (or, Sensitivity) is defined as the fraction of examples which were predi
 The following graphic does a phenomenal job visualizing the difference between precision and recall.
 
 
-
-<img src="..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Precision vs Recall.png" alt="Model Design, Train, and Evaluation" width='45%'/>
-
+<p align=center>
+  <img src="..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Precision vs Recall.png" alt="Model Design, Train, and Evaluation" width='45%'/>
+</p
 
 
 
@@ -330,8 +334,9 @@ The following graphic does a phenomenal job visualizing the difference between p
 
 Ultimately, it's nice to have one number to evaluate a machine learning model just as you get a single grade on a test in school. Thus, it makes sense to combine the precision and recall metrics; the common approach for combining these metrics is known as the f-score.
 
-<img src="..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\F1 score.png" alt="Model Design, Train, and Evaluation" width='50%'/>
-
+<p align=center>
+  <img src="..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\F1 Score.png" alt="Model Design, Train, and Evaluation" width='50%'/>
+</p
 
 
 
@@ -351,9 +356,9 @@ Evaluation metrics for regression models are quite different than the above metr
 Explained variance compares the variance within the expected outcomes, and compares that to the variance in the error of our model. This metric essentially represents the amount of variation in the original dataset that our model is able to explain.
 
 
-
-<img src="..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\ev.png" alt="Model Design, Train, and Evaluation" width='50%'/>
-
+<p align=center>
+  <img src="..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\ev.png" alt="Model Design, Train, and Evaluation" width='50%'/>
+</p
 
 
 
@@ -362,8 +367,9 @@ Explained variance compares the variance within the expected outcomes, and compa
 
 Mean squared error is simply defined as the average of squared differences between the predicted output and the true output. Squared error is commonly used because it is agnostic to whether the prediction was too high or too low, it just reports that the prediction was incorrect.
 
-<img src="..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\F1 score.png" alt="Model Design, Train, and Evaluation" width='50%'/>
-
+<p align=center>
+  <img src="..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\MSE.png" alt="Model Design, Train, and Evaluation" width='35%'/>
+</p
 
 
 
