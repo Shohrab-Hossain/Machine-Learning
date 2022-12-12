@@ -143,7 +143,7 @@ Although the neural network becomes simpler, learning any complex task is imposs
 
 #### 2.1.4.2. Types of activation function
 
-Activation functions are of different types, some are linear and some non-linear. All the types of the activation function are stated [here](https://).
+Activation functions are of different types, some are linear and some non-linear. All the types of the activation function are stated [here]([https://](https://github.com/Shohrab-Hossain/Machine-Learning/blob/main/01.%20Supervised%20Learning/05.%20Model%20Design%2C%20Training%2C%20and%20Evaluation/Neural%20Networks/Types%20of%20activation%20function.md).
 
 
 <br> <br> 
