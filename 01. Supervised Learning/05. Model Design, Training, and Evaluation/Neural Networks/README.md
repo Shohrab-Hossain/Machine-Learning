@@ -1,16 +1,16 @@
 # Neural Network
 
 
+<br> <br>
+
+<p align=center>
+  <img src="..\..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Neural Networks\NN-logo.gif" alt="Logo" width="60%"/>
+</p>
 
 
 
-<img src="..\..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Neural Networks\NN-logo.gif" alt="Logo" width="60%"/>
 
-
-
-
-
-
+<br> <br> 
 
 
 
@@ -22,7 +22,7 @@
 
 
 
-
+<br> 
 
 # 1. Introduction to Neural Network
 
@@ -31,16 +31,16 @@ A **neural network** is an adaptive system that learns by using interconnected n
 A neural network breaks down the input into layers of abstraction. It can be trained using many examples to recognize patterns in speech or images, for example, just as the human brain does. Its behavior is defined by the way its individual elements are connected and by the strength, or weights, of those connections. These `weights` are automatically adjusted during training according to a specified learning rule until the artificial neural network performs the desired task correctly.
 
 
+<br> <br> 
+
+<p align=center>
+  <img src="..\..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Neural Networks\NN-intro.jpg" alt="Logo" width="60%"/>
+</p>
 
 
 
-<img src="..\..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Neural Networks\NN-intro.jpg" alt="Logo" width="60%"/>
 
-
-
-
-
-
+<br> <br> <br> <br> 
 
 
 
@@ -49,30 +49,30 @@ A neural network breaks down the input into layers of abstraction. It can be tra
 **Perceptron** is a building block of a Neural Network. The basic structure of a perceptron is shown in the below figure.
 
 
+<br> <br> 
+
+<p align=center>
+  <img src="..\..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Neural Networks\Perceptron.png" alt="Logo" width="50%"/>
+</p>
 
 
 
-<img src="..\..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Neural Networks\Perceptron.png" alt="Logo" width="50%"/>
 
 
-
-
-
-
-
+<br> <br> <br> 
 
 
 ## 2.1. Components of a Perceptron
 
 Perceptron contains three main components - input, weight-bias, and activation function.
 
-
+<br> <br> 
 
 ### 2.1.1. Input
 
 Input is the set of features that are fed into the model for the learning process. It is the primary component of Perceptron which accepts the initial data into the system for further processing. Each input node contains a real numerical value. Inputs are represented as `X`.
 
-
+<br> <br> 
 
 ### 2.1.2. Weight
 
@@ -81,7 +81,7 @@ Its main function is to give importance to those features that contribute more t
 Weight parameter represents the strength of the connection between units. This is another most important parameter of Perceptron components. Weight is directly proportional to the strength of the associated input neuron in deciding the output. Weights are represented as `W`.
 
 
-
+<br> <br> 
 
 
 ### 2.1.3. Bias
@@ -92,37 +92,42 @@ Further, Bias can be considered as the line of intercept in a linear equation. B
 
 
 
-
+<br> 
 
 The relation between input (X), weight (w), and bias (b) gives `z` as stated below, 
 
+<br> <br> 
+
+<p align=center>
+  <img src="..\..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Neural Networks\z-equation.png" alt="Logo" width="45%"/>
+</p>
 
 
-<img src="..\..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Neural Networks\z-equation.png" alt="Logo" width="45%"/>
 
-
-
-
-
+<br> <br>
 
 
 ### 2.1.4. Activation Function
 
-<img src="..\..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Neural Networks\Activation-Function-logo.jpg" alt="Logo" width="60%"/>
+<br> <br> 
+
+<p align=center>
+  <img src="..\..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Neural Networks\Activation-Function-logo.jpg" alt="Logo" width="60%"/>
+</p>
 
 
-
-
+<br> <br> 
 
 Activation Function is the final and important component that help to determine whether the neuron will fire or not. Activation Function can be considered primarily as a step function. The purpose of an activation function is to add non-linearity to the neural network.
 
+<br> <br> 
+
+<p align=center>
+  <img src="..\..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Neural Networks\Activation-Function.png" alt="Logo" width="45%"/>
+</p>
 
 
-<img src="..\..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Neural Networks\Activation-Function.png" alt="Logo" width="45%"/>
-
-
-
-
+<br> <br> 
 
 #### 2.1.4.1. Importance of Activation Function
 
@@ -133,7 +138,7 @@ In that case, every neuron will only be performing a linear transformation on th
 Although the neural network becomes simpler, learning any complex task is impossible, and our model would be just a linear regression model.
 
 
-
+<br> <br> 
 
 
 #### 2.1.4.2. Types of activation function
@@ -141,12 +146,12 @@ Although the neural network becomes simpler, learning any complex task is imposs
 Activation functions are of different types, some are linear and some non-linear. All the types of the activation function are stated [here](https://).
 
 
-
+<br> <br> 
 
 
 #### 2.1.4.3. How to choose the right Activation Function?
 
-
+<br> 
 
 You need to match your activation function for your output layer based on the type of prediction problem that you are solving—specifically, the type of predicted variable.
 
@@ -154,7 +159,7 @@ Here’s what you should keep in mind.
 
 As a rule of thumb, you can begin with using the ReLU activation function and then move over to other activation functions if ReLU doesn’t provide optimum results.
 
-
+<br> <br> 
 
 And here are a few other guidelines to help you out.
 
@@ -175,29 +180,30 @@ The activation function used in hidden layers is typically chosen based on the t
 2. **Recurrent Neural Network**: Tanh and/or Sigmoid activation function.
 
 
-
+<br> <br> 
 
 
 Here is a cheat sheet to consolidate all the knowledge on the Neural Network Activation Functions that discussed above - 
 
+<br> <br> 
 
-
-<img src="..\..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Neural Networks\activation-function-cheat-sheet.jpeg" alt="Logo" width="85%"/>
-
-
-
-
-
+<p align=center>
+  <img src="..\..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Neural Networks\activation-function-cheat-sheet.jpeg" alt="Logo" width="85%"/>
+</p>
 
 
 
-
-<img src="..\..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Neural Networks\Activation-Function-Cheat-Sheet-Equation.png" alt="Logo" width="80%"/>
-
+<br> <br> 
 
 
 
+<p align=center>
+  <img src="..\..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Neural Networks\Activation-Function-Cheat-Sheet-Equation.png" alt="Logo" width="80%"/>
+</p>
 
+
+
+<br> <br> <br> <br> 
 
 
 
@@ -213,31 +219,31 @@ In the below illustration, here is a perceptron receiving four inputs. The corre
 Now for some inputs the perceptron generates output 1, meaning it predicts Blue class, and for other inputs it predicts Red class. The line shows the predicted class.
 
 
+<br> <br> 
+
+<p align=center>
+  <img src="..\..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Neural Networks\Perceptron-Learning.gif" alt="Logo" width="60%"/>
+</p>
 
 
-
-<img src="..\..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Neural Networks\Perceptron-Learning.gif" alt="Logo" width="60%"/>
-
-
-
-
+<br> <br> 
 
 One important observation is the perceptron predicts same output for same inputs. Which means any time for the same input the perceptron is predicting the same class, again and again. The problem is, if the prediction is not good enough then the perceptron should learn how to predict better next time. But as we saw, it keeps predicting the same results all the time. To solve this problem all we need to do is to change the weights and biases after each misprediction. And for that we need to know how much error is there in any prediction and depending on that we will adjust the weights and biases. 
 
+<br> <br> 
 
 
+<p align=center>
+  <img src="..\..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Neural Networks\Perceptron-Learning-Block.png" alt="Logo" width="75%"/>
+</p>
 
 
-<img src="..\..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Neural Networks\Perceptron-Learning-Block.png" alt="Logo" width="75%"/>
-
-
-
-
+<br> <br> 
 
 To accomplish this, a cost function is used to calculate the error in a prediction, and a backpropagation happens that updates the wights and biases based on the cost function. In this way, after each prediction the perceptron will be able to predict more accurately. 
 
 
-
+<br> <br> <br> <br> 
 
 
 
@@ -247,21 +253,21 @@ To accomplish this, a cost function is used to calculate the error in a predicti
 In a multilayer perceptron model there is layers of perceptron. In simple terms, multi-layered perceptron can be treated as a network of numerous artificial neurons overhead varied layers, the activation function is no longer linear, instead, non-linear activation functions such as Sigmoid functions, Tanh, ReLU activation Functions, etc are deployed for execution.
 
 
+<br> <br> 
+
+<p align=center>
+  <img src="..\..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Neural Networks\mlp-logo.png" alt="Logo" width="65%"/>
+</p>
 
 
 
-<img src="..\..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Neural Networks\mlp-logo.png" alt="Logo" width="65%"/>
-
-
-
-
-
+<br> <br> 
 
 
 A multi-layered perceptron model executes in two stages; the **forward stage** and the **backward stages**. In the *forward stage*, activation functions are originated from the input layer to the output layer, and in the *backward stage*, the error between the actual observed value and demanded given value is originated backward in the output layer for modifying weights and bias values.
 
 
-
+<br> <br> 
 
 
 ### 2.3.1. Components of MLP
@@ -271,21 +277,22 @@ When multiple neurons are stacked together in a row, they constitute a layer, an
 The main components of this type of structure discussed below.
 
 
+<br> <br> 
+
+<p align=center>
+  <img src="..\..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Neural Networks\MLP-Terminology.png" alt="Logo" width="75%"/>
+</p>
 
 
 
-<img src="..\..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Neural Networks\MLP-Terminology.png" alt="Logo" width="75%"/>
-
-
-
-
-
+<br> <br> 
 
 
 #### a. Input Layer
 
 The data that we feed to the model is loaded into the input layer from external sources like a CSV file or a web service. It is the only visible layer in the complete Neural Network architecture that passes the complete information from the outside world without any computation.
 
+<br> <br> 
 
 
 #### b. Hidden Layer
@@ -294,7 +301,7 @@ The hidden layers are what makes deep learning what it is today. They are interm
 
 There can be multiple interconnected hidden layers that account for searching different hidden features in the data. For example, in image processing, the first hidden layers are responsible for higher-level features like edges, shapes, or boundaries. On the other hand, the later hidden layers perform more complicated tasks like identifying complete objects (a car, a building, a person).
 
-
+<br> <br> 
 
 #### c. Output Layer
 
@@ -304,7 +311,7 @@ In the case of classification/regression models, the output layer generally has 
 
 
 
-
+<br> <br> <br> <br> 
 
 
 
@@ -321,15 +328,15 @@ Finally, we send the information on how far off the produced result is from the 
 Then we repeat the process with the updated weights and biases until our produced output is reasonably close to the expected output.
 
 
+<br> <br> 
+
+<p align=center>
+  <img src="..\..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Neural Networks\NN-Propagation.webp" alt="Logo" width="45%"/>
+</p>
 
 
 
-<img src="..\..\..\readme-lib\01. Supervised Learning\05. Model Design, Training, and Evaluation\Neural Networks\NN-Propagation.webp" alt="Logo" width="45%"/>
-
-
-
-
-
+<br> <br> <br> 
 
 
 ## 3.1. Cost Function
